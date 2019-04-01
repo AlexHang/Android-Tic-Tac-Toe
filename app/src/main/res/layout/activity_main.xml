@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.alexhang.tictactoe.MainActivity">
+
+
+    <TableLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="0,1,2"
+        android:gravity="center">
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:gravity="center">
+
+            <TextView
+
+                android:layout_height="88dp"
+                android:layout_weight="1"
+                android:background="#FFFFFF"
+                android:gravity="center"
+                android:text="Score: "
+                android:id="@+id/score"
+                />
+            <TextView
+
+                android:layout_height="88dp"
+                android:layout_weight="1"
+                android:background="#FFFFFF"
+                android:gravity="center"
+                android:text="Turn: " />
+            <TextView
+
+                android:layout_height="88dp"
+                android:layout_weight="1"
+                android:background="#FFFFFF"
+                android:gravity="center"
+                android:text="Record: " />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF">
+
+
+            <TextView
+                android:layout_height="100dp"
+                android:background="@drawable/border"
+                android:clickable="true"
+                android:gravity="center"
+                android:text=""
+                android:textSize="48dp"
+                android:onClick="click11"
+                android:id="@+id/c11"
+                />
+
+
+            <TextView
+                android:layout_height="100dp"
+                android:background="@drawable/border"
+                android:clickable="true"
+                android:gravity="center"
+                android:text=""
+                android:textSize="48dp"
+                android:onClick="click12"
+                android:id="@+id/c12"
+                />
+
+            <TextView
+                android:layout_height="100dp"
+                android:background="@drawable/border"
+                android:clickable="true"
+                android:gravity="center"
+                android:text=""
+                android:textSize="48dp"
+                android:onClick="click13"
+                android:id="@+id/c13"
+                />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            >
+
+
+            <TextView
+                android:layout_height="100dp"
+                android:background="@drawable/border"
+                android:clickable="true"
+                android:gravity="center"
+                android:text=""
+                android:textSize="48dp"
+                android:id="@+id/c21"
+                android:onClick="click21"
+                />
+
+            <TextView
+                android:layout_height="100dp"
+                android:background="@drawable/border"
+                android:clickable="true"
+                android:gravity="center"
+                android:text=""
+                android:textSize="48dp"
+                android:id="@+id/c22"
+                android:onClick="click22"
+                />
+
+            <TextView
+                android:layout_height="100dp"
+                android:background="@drawable/border"
+                android:clickable="true"
+                android:gravity="center"
+                android:text=""
+                android:textSize="48dp"
+                android:id="@+id/c23"
+                android:onClick="click23"
+                />
+
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+
+            android:background="#FFFFFF">
+
+            <TextView
+                android:layout_height="100dp"
+                android:background="@drawable/border"
+                android:clickable="true"
+                android:gravity="center"
+                android:text=""
+                android:textSize="48dp"
+                android:onClick="click31"
+                android:id="@+id/c31"
+                />
+
+            <TextView
+                android:layout_height="100dp"
+                android:background="@drawable/border"
+                android:clickable="true"
+                android:gravity="center"
+                android:text=""
+                android:textSize="48dp"
+                android:onClick="click32"
+                android:id="@+id/c32"
+                />
+
+            <TextView
+                android:layout_height="100dp"
+                android:background="@drawable/border"
+                android:clickable="true"
+                android:gravity="center"
+                android:text=""
+                android:textSize="48dp"
+                android:id="@+id/c33"
+                android:onClick="click33"
+                />
+
+        </TableRow>
+
+    </TableLayout>
+
+
+</android.support.constraint.ConstraintLayout>
